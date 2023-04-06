@@ -9,10 +9,10 @@ build-mindetach-module = true
 [YouTube]
 enabled = true
 build-mode = "module"                                                   # 'both', 'apk' or 'module'
+exclusive-patches = true
 excluded-patches = "debugging"                                        # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = "general-ads, hide-watermark, minimized-playback, old-quality-layout, open-links-externally, return-youtube-dislike, sponsorblock, theme, video-ads"                                                 # space-seperated patches to include (non-excluded patches are included by default)
-version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
-exclusive-patches = true                                             # excludes all patches by default
+version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'                                      # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-magisk"
 
