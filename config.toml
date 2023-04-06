@@ -9,7 +9,7 @@ build-mindetach-module = true
 [YouTube]
 enabled = true
 build-mode = "module"
-exclusive-patches = true
+exclusive-patches = false
 excluded-patches = "debugging"
 included-patches = "general-ads, hide-watermark, minimized-playback, old-quality, open-links-externally, return-youtube-dislike, sponsorblock, theme, video-ads"
 version = "auto"
